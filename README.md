@@ -77,7 +77,7 @@ node -v
 npm -v
 sudo yum install git -y
 git --version
-git clone https://github.com/Ochubaanthony/node-js.git
+git clone https://github.com/Ochubaanthony/node.git
 cd node.js
 
 Let’s create a package.json and install Express manually.
@@ -96,6 +96,7 @@ http://<your-ec2-public-ip>:3000
 Use pm2 to keep the app running:
 
 
+AFTER CREATE TGE EC2 INSTANCE CONTIUNE FROM THE BELOW
 
   1  sudo yum update -y
     2  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -103,13 +104,13 @@ Use pm2 to keep the app running:
     4  clear
     5  nvm install node
     6  sudo yum install git -y
-    7  git clone https://github.com/Ochubaanthony/node.git
+    7  git clone https://github.com/Ochubaanthony/application.git
     8  clear
     9  ls
-   10  cd node/
+   10  cd application/
    11  npm init -y
    12  npm install express
-   13  node app.js
+   13  node application.js
 
 
 
